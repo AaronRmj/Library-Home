@@ -11,7 +11,7 @@ try {
     // Activer le mode erreur pour afficher les exceptions
     $pdo->setAttribute(PDO::ATTR_MODE, PDO:ERRMODE_EXCEPTION);
 
-    echo "connexion reussie"
+    echo "connexion reussie";
 }
 
 catch (PDOException $e){
